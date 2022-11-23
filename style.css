@@ -2,3 +2,104 @@
 Creator Name : Paul Christian Labor
 Date Created : September 1, 2022
 */
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: line-through;
+}
+.hamburgeropen,.hamburgerclose{
+    position: fixed;
+    right: 0;
+    padding: 2%;
+    font-size: 50px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.hidden{
+    display: none;
+}
+.fixed{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: #333333;
+}
+.title{
+    padding: 10%;
+    text-align: center;
+}
+.title a:hover{
+    text-decoration: none;
+}
+.links{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.links a{
+    padding: 10%;
+}
+.socials{
+    text-align: center;
+    font-size: 20px;
+    padding: 3%;
+}
+.socials a{
+    padding: 3%;
+}
+/* Home Contents */
+.home{
+    height: 100%;
+    background-image: url(background1.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    border: solid 1px red;
+}
+/* About Contents */
+.about{
+    height: 100%;
+    background-color: #262626;
+    border: solid 1px red;
+}
+/* Skills Contents */
+.skills{
+    height: 100%;
+    background-color: #333333;
+    border: solid 1px red;
+}
+/* Projects Contents */
+.projects{
+    height: 100%;
+    background-color: #262626;
+    border: solid 1px red;
+}
+/* Contact Contents */
+.contact{
+    height: 100%;
+    background-color: #333333;
+    border: solid 1px red;
+}
+/* Footer Contents */
+footer{
+    padding: 2%;
+    text-align: center;
+    background-color: #262626;
+}
