@@ -30,6 +30,7 @@ a:hover{
     border: none;
     cursor: pointer;
     color: white;
+    font-weight: lighter;
 }
 .hidden{
     display: none;
