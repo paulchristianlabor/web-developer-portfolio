@@ -1,7 +1,6 @@
 var isNavOpen = false
 
 function openNav() {
-    console.log('main nav class, ', document.getElementById("main-nav").classList)
     document.getElementById("main-nav").classList.remove("hidden")
     document.getElementById("buttonhamburger").classList.add("hidden")
 }
