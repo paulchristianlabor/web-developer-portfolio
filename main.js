@@ -18,5 +18,4 @@ function onClick() {
     else {
         closeNav()
     }
-    console.log("nav is open")
 }

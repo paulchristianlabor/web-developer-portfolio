@@ -34,6 +34,7 @@ a:hover{
     border-radius: 5px;
     color: white;
     cursor: pointer;
+    display: flex;
 }
 .hamburger:hover{
     background-color: black;
