@@ -23,10 +23,6 @@ a:hover{
     text-decoration: line-through;
 }
 /* Hamburger Button Content */
-.buttonmenu{
-    position: fixed;
-    right: 0;
-}
 .hamburger{
     position: fixed;
     right: 0;
@@ -51,14 +47,14 @@ a:hover{
     display: flex;
     flex-direction: column;
     text-align: center;
-    transition: transform .25s ease-out;
+    transition: transform .25s ease-in;
     transform: translateX(100%);
 }
 .hiddenmenuopen{
-    transform:translateX(0%);
+    transform: translateX(0%);
 }
 .hiddenmenuclose{
-    transform:translateX(100%);
+    transform: translateX(100%);
 }
 .hiddenmenutitle{
     padding: 50px

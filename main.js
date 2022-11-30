@@ -1,13 +1,13 @@
 var isNavOpen = false
 
 function openNav() {
-    document.getElementById("hidden-menu").classList.remove("hiddenmenuopen")
-    document.getElementById("buttonhamburger").classList.add("hiddenmenuclose")
+    document.getElementById("hidden-menu").classList.add("hiddenmenuopen")
+    document.getElementById("hidden-menu").classList.remove("hiddenmenuclose")
 }
 
 function closeNav() {
-    document.getElementById("main-nav").classList.add("hiddenmenuclose")
-    document.getElementById("buttonhamburger").classList.remove("hiddenmenuopen")
+    document.getElementById("hidden-menu").classList.add("hiddenmenuclose")
+    document.getElementById("hidden-menu").classList.remove("hiddenmenuopen")
 }
 
 function onClick() {
@@ -18,4 +18,5 @@ function onClick() {
     else {
         closeNav()
     }
+    console.log("nav is open")
 }
