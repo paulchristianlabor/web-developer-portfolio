@@ -89,6 +89,9 @@ a:hover{
     background-size: cover;
     background-attachment: fixed;
     border: solid 1px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* About Contents */
 .about{
