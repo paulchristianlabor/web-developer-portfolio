@@ -37,7 +37,7 @@ a:hover{
     display: flex;
 }
 .hamburger:hover{
-    background-color: black;
+    background-color: #997300;
 }
 /* Hidden Menu Content */
 .hiddenmenu{
@@ -72,6 +72,9 @@ a:hover{
 .hiddenmenulinks a{
     padding: 30px;
 }
+.hiddenmenulinks a:hover{
+    color: #997300;
+}
 .hiddenmenusocials{
     display: flex;
     justify-content: center;
@@ -79,6 +82,9 @@ a:hover{
 }
 .hiddenmenusocials a{
     padding: 20px;
+}
+.hiddenmenusocials a:hover{
+    color: #997300;
 }
 /* Home Contents */
 .home{
@@ -96,108 +102,6 @@ a:hover{
     width: 100%;
     padding: 4%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* About Contents */
 .about{
     height: 100%;
@@ -206,6 +110,94 @@ a:hover{
     justify-content: center;
     align-items: center;
 }
+.aboutcontent{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.aboutphotocontainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutphotocontent{
+    height: 80%;
+    width: 50%;
+    background-image: url("background3.jpg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    box-shadow: -10px 10px 10px #997300;
+}
+.aboutdescriptioncontainer{
+    height: 100%;
+    width: 100%;
+}
+.aboutdescriptioncontainer h2{
+    padding: 2%;
+    text-align: center;
+}
+.aboutdescriptioncontent{
+    padding: 1%;
+}
+.aboutdescriptioncontent p{
+    padding: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Skills Contents */
 .skills{
     height: 100%;
