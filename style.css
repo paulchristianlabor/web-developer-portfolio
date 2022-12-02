@@ -41,7 +41,7 @@ h2{
     display: flex;
 }
 .hamburger:hover{
-    background-color: #997300;
+    background-color: black;
 }
 /* Hidden Menu Content */
 .hiddenmenu{
