@@ -22,6 +22,10 @@ a{
 a:hover{
     text-decoration: line-through;
 }
+h2{
+    padding: 2%;
+    text-align: center;
+}
 /* Hamburger Button Content */
 .hamburger{
     position: fixed;
@@ -136,15 +140,11 @@ a:hover{
     height: 100%;
     width: 100%;
 }
-.aboutdescriptioncontainer h2{
-    padding: 2%;
-    text-align: center;
-}
 .aboutdescriptioncontent{
-    padding: 1%;
+    padding: 2%;
 }
 .aboutdescriptioncontent p{
-    padding: 1%;
+    padding: 2%;
 }
 
 
@@ -206,6 +206,119 @@ a:hover{
     justify-content: center;
     align-items: center;
 }
+.skillscontent{
+    height: 90%;
+    width: 90%;
+}
+.skillsdescriptioncontainer{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skillscardcontainer{
+    border: solid 1px gray;
+    height: 30%;
+    width: 90%;
+    margin: 2%;
+    border-radius: 5px;
+    box-shadow: -10px 10px 10px #262626;
+    text-align: center;
+}
+.skillscardicon{
+    padding: 2%;
+}
+.skillscardicon i{
+    font-size: 50px;
+}
+.skillscarddescription{
+    padding: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Projects Contents */
 .projects{
     height: 100%;
