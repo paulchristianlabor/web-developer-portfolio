@@ -96,29 +96,146 @@ a:hover{
     width: 100%;
     padding: 4%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* About Contents */
 .about{
     height: 100%;
     background-color: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* Skills Contents */
 .skills{
     height: 100%;
     background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* Projects Contents */
 .projects{
     height: 100%;
     background-color: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* Contact Contents */
 .contact{
     height: 100%;
     background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* Footer Contents */
 footer{
     padding: 2%;
     text-align: center;
     background-color: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
