@@ -93,6 +93,10 @@ a:hover{
     justify-content: center;
     align-items: center;
 }
+.homecontent{
+    width: 100%;
+    padding: 4%;
+}
 /* About Contents */
 .about{
     height: 100%;
