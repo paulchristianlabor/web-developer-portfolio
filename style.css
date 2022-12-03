@@ -191,16 +191,6 @@ h2{
 .skillscarddescription{
     padding: 2%;
 }
-
-
-
-
-
-
-
-
-
-
 /* Projects Contents */
 .projects{
     height: 100%;
@@ -231,6 +221,7 @@ h2{
 }
 .wrapper i:first-child{
     left: -23px;
+    display: none;
 }
 .wrapper i:last-child{
     right: -23px;
@@ -240,108 +231,24 @@ h2{
     cursor: pointer;
     overflow: hidden;
     white-space: nowrap;
+    scroll-behavior: smooth;
+}
+.carousel.dragging{
+    cursor: grab;
+    scroll-behavior: auto;
+}
+.carousel.dragging img{
+    pointer-events: none;
 }
 .carousel img{
     height: 340px;
     object-fit: cover;
     margin-left: 14px;
-    width: calc(100% / 3);
+    width: 100%;
 }
 .carousel img:first-child{
     margin-left: 0px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Contact Contents */
 .contact{
     height: 100%;
