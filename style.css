@@ -13,7 +13,7 @@ html,body{
     background-color: #262626;
     color: white;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 14px;
+    font-size: 15px;
 }
 a{
     color: white;
@@ -198,10 +198,6 @@ h2{
 
 
 
-
-
-
-
 /* Projects Contents */
 .projects{
     height: 100%;
@@ -210,6 +206,98 @@ h2{
     justify-content: center;
     align-items: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Contact Contents */
 .contact{
     height: 100%;
@@ -218,6 +306,111 @@ h2{
     justify-content: center;
     align-items: center;
 }
+.contactcontent p{
+    padding: 2%;
+}
+.contactsocials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactsocials a{
+    padding: 5%;
+}
+.contactsocials a:hover{
+    color: #997300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Footer Contents */
 footer{
     padding: 2%;
