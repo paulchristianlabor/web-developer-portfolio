@@ -19,6 +19,7 @@ html,body{
 a{
     color: white;
     text-decoration: none;
+    padding: 10%;
 }
 a:hover{
     text-decoration: line-through;
@@ -65,30 +66,38 @@ h2{
     transform: translateX(100%);
 }
 .hiddenmenutitle{
-    padding: 50px
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hiddenmenutitle a{
+    padding: 9%;
 }
 .hiddenmenutitle a:hover{
     text-decoration: none;
 }
 .hiddenmenulinks{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 .hiddenmenulinks a{
-    padding: 30px;
+    padding: 9%;
 }
 .hiddenmenulinks a:hover{
     color: #997300;
 }
 .hiddenmenusocials{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .hiddenmenusocials a{
-    padding: 20px;
+    padding: 9%;
 }
 .hiddenmenusocials a:hover{
     color: #997300;
@@ -279,4 +288,57 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media only screen and (min-width: 720px){
+    html,body{
+        font-size: 16px;
+    }
+/* Hamburger Button Content */
+.hamburger{
+    display: none;
+}
+/* Hidden Menu Content */
+.hiddenmenu{
+    height: 10%;
+    background: none;
+    flex-direction: row;
+    transform: translateX(0);
+}
+.hiddenmenutitle a{
+    padding: 3%;
+}
+.hiddenmenulinks{
+    flex-direction: row;
+}
+.hiddenmenulinks a{
+    padding: 3%;
+}
+.hiddenmenusocials a{
+    padding: 3%;
+}
+
+.homecontent{
+    font-size: 40px;
+}
+.about{
+    height: 60%;
+}
+.aboutcontent{
+    flex-direction: row;
+}
+.skills{
+    height: 60%;
+}
+.skillsdescriptioncontainer{
+    flex-direction: row;
+}
+.skillscardcontainer{
+    height: 50%;
+}
+.carousel img{
+    width: calc(100% / 3);
+}
+.contact{
+    height: 70%;
+}
 }
